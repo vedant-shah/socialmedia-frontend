@@ -57,13 +57,18 @@
   overflow: hidden;
   overflow-x: auto;
 }
-
+#check{
+  color: rgb(89, 255, 47);
+  font-size: xx-large;
+  margin-bottom: 0.8rem;
+}
 .cardcontainer {
   min-width: 350px;
   max-width: 60%;
   margin-left: auto;
   margin-right: auto;
   display: flexs;
+  color: white;
 }
 
 #storycontainer::-webkit-scrollbar {

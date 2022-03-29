@@ -12,7 +12,7 @@ function Card(props) {
                     </div>
                     <img id='postimg' src={props.img} className="card-img-top" alt="..." />
                     <div className="lc text-start">
-                        <FcLike className='minicon'/>
+                        <FcLike className='minicon' />
                         <FaRegComment className='mx-3 minicon' />
                         <FaRegBookmark className='bm minicon' />
                     </div>

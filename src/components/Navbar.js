@@ -14,7 +14,7 @@ function Navbar() {
           <button id='postupload' data-bs-toggle="modal" data-bs-target="#exampleModal" ><RiImageAddLine className='navicon mx-3' /></button>
         </div>
       </nav>
-
+      {/* Modal  */}
       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
@@ -43,19 +43,18 @@ function Navbar() {
                   <p className="text-start my-1">Also post to:</p>
                 </div>
                 <div className="alsopostto text-start d-flex flex-column">
-                  <div class="form-check form-switch d-flex align-items-center">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                    <label class="form-check-label mx-2" for="flexSwitchCheckDefault"><FaFacebookSquare id='fbicon' className='my-2' /></label>
+                  <div className="form-check form-switch d-flex align-items-center">
+                    <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                    <label className="form-check-label mx-2" htmlFor="flexSwitchCheckDefault"><FaFacebookSquare id='fbicon' className='my-2' /></label>
                   </div>
-                  <div class="form-check form-switch d-flex align-items-center">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                    <label class="form-check-label mx-2" for="flexSwitchCheckDefault"><FaTwitter id='fbicon' className='my-2' /></label>
+                  <div className="form-check form-switch d-flex align-items-center">
+                    <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                    <label className="form-check-label mx-2" htmlFor="flexSwitchCheckDefault"><FaTwitter id='fbicon' className='my-2' /></label>
                   </div>
-                  <div class="form-check form-switch d-flex align-items-center">
-                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                    <label class="form-check-label mx-2" for="flexSwitchCheckDefault"><FaTumblr id='fbicon' className='my-2' /></label>
+                  <div className="form-check form-switch d-flex align-items-center">
+                    <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                    <label className="form-check-label mx-2" htmlFor="flexSwitchCheckDefault"><FaTumblr id='fbicon' className='my-2' /></label>
                   </div>
-
                 </div>
               </div>
             </div>

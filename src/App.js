@@ -3,6 +3,7 @@ import './App.css';
 import Card from './components/Card';
 import Navbar from './components/Navbar';
 import Story from './components/Story';
+import { FaCheckCircle } from "react-icons/fa";
 
 function App() {
   let img1 = "https://ih1.redbubble.net/image.964483224.4096/flat,1000x1000,075,f.u8.jpg"
@@ -19,7 +20,11 @@ function App() {
         <Card img={img1} username={username1}/>
         <Card img={img2} username={username2}/>
         <Card img={img3} username="JustAnotherUser"/>
-        <Card img={img4} username="NotSomeOneYouKnow"/>
+        <Card img={img4} username="NotSomeOneYouKnow" />
+        <hr />
+        <FaCheckCircle id='check'/>
+        <h3>Youre all caught up!</h3>
+        <h6 className='mb-5'>You've seen all Posts in the last 3 days.</h6>
       </div>
     </div>
   );

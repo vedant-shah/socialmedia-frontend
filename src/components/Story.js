@@ -41,10 +41,10 @@ function Story() {
                                         <img src={storyimg} className="d-block h-100" alt="..."/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={storyimg1} className="d-block w-100" alt="..."/>
+                                        <img src={storyimg1} className="d-block h-100" alt="..."/>
                                     </div>
                                     <div className="carousel-item">
-                                        <img src={storyimg2} className="d-block w-100" alt="..."/>
+                                        <img src={storyimg2} className="d-block h-100" alt="..."/>
                                     </div>
                                 </div>
                                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

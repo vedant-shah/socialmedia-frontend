@@ -4,8 +4,8 @@ function Story() {
     const height = window.innerHeight-40;
     console.log(height);
     let storyimg = `https://source.unsplash.com/480x${height}/?random`
-    let storyimg1 = `https://source.unsplash.com/480x${height}/?dog`
-    let storyimg2 = `https://source.unsplash.com/480x${height}/?animal`
+    let storyimg1 = `https://source.unsplash.com/475x${height}/?random`
+    let storyimg2 = `https://source.unsplash.com/485x${height}/?random`
     return (
         <>
             <div id='storycontainer'>

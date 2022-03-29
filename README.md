@@ -9,7 +9,7 @@ This project is a clone of instagram. It is made using ReactJS and Bootstrap 5. 
 The website has the following UI features:
 - Homepage UI consisting of multiple posts and stories.
 - Button and Modal to add a post (only UI)
-- Clickable stroies
+- Clickable stories
 
 ### Demo
 

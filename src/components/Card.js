@@ -12,9 +12,9 @@ function Card(props) {
                     </div>
                     <img id='postimg' src={props.img} className="card-img-top" alt="..." />
                     <div className="lc text-start">
-                        <FcLike />
-                        <FaRegComment className='mx-3' />
-                        <FaRegBookmark className='bm' />
+                        <FcLike className='minicon'/>
+                        <FaRegComment className='mx-3 minicon' />
+                        <FaRegBookmark className='bm minicon' />
                     </div>
                     <div className='text-start px-4 py-1'>
                         <p className='mb-1'>50,000 likes</p>

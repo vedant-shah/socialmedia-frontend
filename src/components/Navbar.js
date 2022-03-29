@@ -1,13 +1,15 @@
 import React from 'react'
 import { RiImageAddLine } from "react-icons/ri";
 import { FaFacebookSquare, FaTwitter, FaTumblr } from "react-icons/fa";
+import logo from '../images/instagraph-logo.png'
 function Navbar() {
   return (
     <>
       <nav className="navbar" id='navbar'>
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            <img src="https://www.seekpng.com/png/full/813-8136306_trend-new-instagram-logo-2019-png-edigital-instagram.png" alt="" width="100" className="d-inline-block align-text-top mx-3" />
+            {/* <img src="https://www.seekpng.com/png/full/813-8136306_trend-new-instagram-logo-2019-png-edigital-instagram.png" alt="" width="100" className="d-inline-block align-text-top mx-3" /> */}
+            <img src={logo} width="100" className="d-inline-block align-text-top mx-3" id='logo' alt="" />
           </a>
           <button id='postupload' data-bs-toggle="modal" data-bs-target="#exampleModal" ><RiImageAddLine className='navicon mx-3' /></button>
         </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { FcLike } from "react-icons/fc";
-import { FaRegComment, FaRegBookmark } from "react-icons/fa";
 function Card(props) {
     return (
         <>

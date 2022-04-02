@@ -192,6 +192,7 @@
 .comment:focus {
   background-color: #181818;
   border: none;
+  color: aliceblue;
   border-color: black;
 }
 

@@ -38,7 +38,7 @@ function Navbar() {
               <div className="ml-2 col-sm-6">
                 <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="preview" id="preview" className="img-thumbnail" />
                 <div className="form-floating my-2 ">
-                  <textarea className="form-control postinput my-3" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <textarea className="form-control postinput my-3 comment" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                   <label htmlFor="floatingTextarea">Share your thoughts here...</label>
                   <p className="text-start my-1">Also post to:</p>
                 </div>

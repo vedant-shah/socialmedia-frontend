@@ -33,7 +33,7 @@
 }
 
 #navbar {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.75);
   /* height: 10%;
   overflow: hidden; */
 }
@@ -99,7 +99,7 @@
 .modal-content {
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
-  /* border-radius: 30px; */
+  border-radius: 30px;
   border: 1px solid transparent;
   -webkit-backdrop-filter: blur(1rem);
   backdrop-filter: blur(1rem);
@@ -107,8 +107,10 @@
 
 .modal-header {
   border-radius: 20px 20px 0 0;
-  background-color: #181818;
-  border-bottom: solid 0.1px grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid transparent;
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
 }
 
 #fbicon {
@@ -135,7 +137,7 @@
 }
 
 .lc {
-  padding-left: 3%;
+  padding-left: 1.5rem;
   margin-top: 2%;
   font-size: x-large;
 }
@@ -169,12 +171,13 @@
   /* height: 40%; */
   width: 95%;
   margin-top: 1%;
+  border-radius: 15px;
 }
 
 .card {
   background-color: rgba(0, 0, 0, 0.1);
   color: white;
-  /* border-radius: 30px; */
+  border-radius: 15px;
   border: 1px solid transparent;
   -webkit-backdrop-filter: blur(1rem);
   backdrop-filter: blur(1rem);
@@ -202,7 +205,9 @@
 label {
   color: #a3a3a3;
 }
-
+.text-muted{
+  color: rgb(168, 168, 168)!important;
+}
 .posticon {
   display: inline-block;
   text-align: left;

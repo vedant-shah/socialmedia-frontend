@@ -5,7 +5,7 @@ import logo from '../images/instagraph-logo.png'
 function Navbar() {
   return (
     <>
-      <nav className="navbar" id='navbar'>
+      <nav className="navbar sticky-top" id='navbar'>
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             {/* <img src="https://www.seekpng.com/png/full/813-8136306_trend-new-instagram-logo-2019-png-edigital-instagram.png" alt="" width="100" className="d-inline-block align-text-top mx-3" /> */}
@@ -30,7 +30,7 @@ function Navbar() {
                   <div className="input-group my-3">
                     <input type="text" className="form-control" disabled placeholder="banana.jpg" id="file" />
                     <div className="input-group-append">
-                      <button type="button" className="browse btn btn-outline-success">Browse...</button>
+                      <button type="button" className="browse btn btn-success">Browse...</button>
                     </div>
                   </div>
                 </form>

@@ -9,7 +9,7 @@ function App() {
   let img1 = "https://images.unsplash.com/photo-1443926818681-717d074a57af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGF1cm9yYSUyMGJvcmVhbHxlbnwwfHwwfHw%3D&w=1000&q=80"
   let username1 = 'randomperson1'
   let username2 = 'randomperson2'
-  let img2 = 'https://images.unsplash.com/photo-1542242218065-c6495579e3fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXVyb3JhJTIwYXVzdHJhbGlzfGVufDB8fDB8fA%3D%3D&w=1000&q=80'
+  let img2 = 'https://danspace77.files.wordpress.com/2019/02/19-011.jpg'
   let img3 = 'https://wallpaperaccess.com/full/2472569.jpg'
   let img4 = 'https://wallpaperaccess.com/full/2472433.jpg'
   return (

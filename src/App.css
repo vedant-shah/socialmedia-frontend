@@ -93,7 +93,7 @@
 
 .form-control:disabled {
   border: solid grey 0.01px;
-  background-color: #272727;
+  background-color: #181818;
 }
 
 .modal-content {
@@ -227,8 +227,8 @@ label {
 }
 
 .postinput {
-  background-color: #242424;
-  color: rgb(189, 189, 189);
+  /* background-color: #242424;
+  color: rgb(189, 189, 189); */
   border: solid grey 0.01px;
 }
 

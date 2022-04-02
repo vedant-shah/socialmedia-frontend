@@ -28,7 +28,7 @@ function Navbar() {
                 <form method="post" id="image-form">
                   <input type="file" name="img[]" className="file" accept="image/*" />
                   <div className="input-group my-3">
-                    <input type="text" className="form-control" disabled placeholder="banana.jpg" id="file" />
+                    <input type="text" className="form-control comment" disabled placeholder="banana.jpg" id="file" />
                     <div className="input-group-append">
                       <button type="button" className="browse btn btn-success">Browse...</button>
                     </div>
